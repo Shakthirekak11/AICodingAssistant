@@ -12,7 +12,7 @@ from langchain_community.vectorstores import FAISS
 import creds
 
 # Initialize Redis client with Upstash URL and token
-redis_url = 'https://summary-barnacle-46438.upstash.io
+redis_url = 'https://summary-barnacle-46438.upstash.io'
 redis_token = 'AbVmAAIjcDFlY2Q4ODIzZWNmY2Q0NTVkODEyMTYyNzNjYmMxZGE1YnAxMA'
 redis_client = redis.from_url(redis_url, password=redis_token)
 
